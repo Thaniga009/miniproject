@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "com.yourname.calendarapp",
+      "infoPlist": {
+        "NSCalendarsUsageDescription": "แอปนี้ขอเข้าถึงปฏิทินเพื่อบันทึกกิจกรรม"
+      }
+    },
+    "android": {
+      "permissions": ["READ_CALENDAR", "WRITE_CALENDAR"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-calendar"
+    ]
+  }
+}
